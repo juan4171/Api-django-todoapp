@@ -27,20 +27,20 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente.
    git clone https://github.com/tu_usuario/Api-django-todoapp.git
    cd Api-django-todoapp
    ```
-Crea y activa un entorno virtual:
+2. Crea y activa un entorno virtual:
   ```sh
    python venv venv
    env\Scripts\activate
   ```
-Instala las dependencias:
+3. Instala las dependencias:
   ```sh
    pip install -r requirements.txt
   ```
-Realiza las migraciones de la base de datos:
+4. Realiza las migraciones de la base de datos:
   ```sh
    python manage.py migrate
   ```
-Ejecuta el servidor de desarrollo:
+5. Ejecuta el servidor de desarrollo:
   ```sh
    python manage.py runserver
   ```
