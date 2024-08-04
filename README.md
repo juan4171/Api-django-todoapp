@@ -2,11 +2,11 @@
 
 ## Descripción
 
-Esta es una API RESTful construida con Django y Django REST Framework para gestionar tareas (todos). La API permite crear, leer, actualizar y eliminar tareas.
+Este proyecto es una API REST creada con Django Rest Framework (DRF) en donde hago un CRUD de tareas de una ToDo app, con el objetivo de luego utilizarla con distintos frameworks Front End.
 
 ## Características
 
-- Crear, leer, actualizar y eliminar tareas.
+- La API permite crear, leer, actualizar y eliminar tareas.
 - Filtrado, búsqueda y ordenación de tareas.
 - Autenticación de usuarios (comentada en el modelo).
 
@@ -14,7 +14,7 @@ Esta es una API RESTful construida con Django y Django REST Framework para gesti
 
 Sigue estos pasos para configurar y ejecutar el proyecto localmente.
 
-### Prerrequisitos
+### Requisitos
 
 - Python 3.x
 - pip
